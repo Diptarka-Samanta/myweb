@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item-store-valueable-iems</title>
+    <link rel="stylesheet" href="value.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="taskmanager">
+            <div id="titel">
+                Valueable Items
+            </div>
+        </div>
+        <div class="task-input">
+            <input type="text" id="task-name" placeholder="Valueable-item">
+            <input type="datetime-local" id="task-date">
+            <button id="add-task">Add Item</button>
+        </div>
+        <div id="tasks">
+            <p id="pending-tasks">
+                You have store <span class="count-value">0</span> item(s).
+            </p>
+        </div>
+        <ol id="task-list"></ol>
+    </div>
+    <script src="value.js"></script>
+</body>
+
+</html>

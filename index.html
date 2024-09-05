@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="" class="logo">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <!-- <li><a href="#">Services</a></li> -->
+                    <li><a href="#">Contact</a></li>
+                    <!-- <li><button class="btn btn-secondary">202-505-3333</button></li> -->
+                </ul>
+                <img src="menu.svg" alt="" class="menu-btn">
+            </nav>
+
+            <div class="main-contet">
+                <!-- <h1 class="intro-heading">we all love</h1> -->
+                <h1 class="main-heading">Infinity store</h1>
+                <p>
+                    <h2> "Store smart, Live right." </h2>
+                </p>
+                <!-- <button class="btn btn-primary">Store items</button> -->
+                <ul class="menu1">
+                    <div class="toggle">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                    <!-- <li style="--i:0;--clr:#ff2972;">
+                        <a href="clock/clock.html">
+                            <ion-icon name="time"></ion-icon>
+                        </a>
+                    </li> -->
+                    <li style="--i:1;--clr:#fee800;">
+                        <a href="book.html">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- <li style="--i:2;--clr:#04fc43;">
+                        <a href="HAPPY BIRTHDAY/happybirthday.html">
+                            <ion-icon name="aperture"></ion-icon>
+                        </a>
+                    </li> -->
+                    <li style="--i:3;--clr:#fe00f1;">
+                        <a href="dress.html">
+                            <ion-icon name="shirt"></ion-icon>
+                        </a>
+                    </li>
+                    <!-- <li style="--i:4;--clr:#00b0fe;">
+                        <a href="blue-flower/blueflower.html">
+                            <ion-icon name="rose"></ion-icon>
+                        </a>
+                    </li> -->
+                    <li style="--i:5;--clr:#fea600;">
+                        <a href="game.html">
+                            <i class='bx bxs-basketball'></i>
+                        </a>
+                    </li>
+                    <!-- <li style="--i:6;--clr:#a529ff;">
+                        <a href="flowerring/flowerring.html">
+                            <ion-icon name="flower"></ion-icon>
+                        </a>
+                    </li> -->
+                    <li style="--i:7;--clr:#01bdab;">
+                        <a href="value.html">
+                            <i class='bx bxl-sketch'></i>
+                        </a>
+                    </li>
+
+                </ul>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+                <script>
+                    let toggle = document.querySelector('.toggle');
+                    let menu = document.querySelector('.menu1');
+                    toggle.onclick = function() {
+                        menu.classList.toggle('active')
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Our Services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="service_1.jpg" alt="">
+                    <h3>Web Design</h3>
+                    <p>
+                        Focus on how you can help and benifit your users. Use simple words so that you don't confuse people.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="service_2.jpg" alt="">
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Focus on how you can help and benifit your users. Use simple words so that you don't confuse people.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="service_3.jpg" alt="">
+                    <h3>Content Creation</h3>
+                    <p>
+                        Focus on how you can help and benifit your users. Use simple words so that you don't confuse people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <img src="quote.png" alt="">
+            <h1>
+                "Original and with an innate understanding of their customer's needds, the team at Love Nature are always a pleasure to work with."
+            </h1>
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <h4>Jane Miller</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>About Us</h4>
+                <h1>
+                    Tell website visitors who you are and why they should choose your business.
+                </h1>
+                <p>
+                    Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in ordeer to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.
+                </p>
+                <button class="btn btn-primary">Let's talk now</button>
+            </div>
+
+            <div class="about-image">
+                <img src="Doraemon_character.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+
+    <section id="questions">
+        <div class="container">
+            <h1>Questions?</h1>
+            <p>
+                Whether you're curious about features, a free trial, or even press, we're here to answer any questions.
+            </p>
+            <button class="btn btn-primary">Let's Talk Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="logo-colored.png" alt="" class="footer-logo" />
+            <p>"Store smart, Live right."</p>
+        </div>
+    </footer>
+
+    <script>
+        const navBtn = document.querySelector(".menu-btn");
+        const navlist = document.querySelector(".nav-list");
+
+        navBtn.addEventListener("click", function() {
+            navlist.classList.toggle("active")
+        });
+    </script>
+
+</body>
+<script src=""></script>
+
+</html>
